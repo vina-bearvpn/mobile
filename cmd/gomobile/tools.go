@@ -5,5 +5,5 @@
 package main
 
 import (
-	_ "golang.org/x/mobile/cmd/gobind"
+	_ "github.com/vina-bearvpn/mobile/cmd/gobind"
 )

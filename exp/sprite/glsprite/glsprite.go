@@ -14,12 +14,12 @@ import (
 	"image"
 	"image/draw"
 
-	"golang.org/x/mobile/event/size"
-	"golang.org/x/mobile/exp/f32"
-	"golang.org/x/mobile/exp/gl/glutil"
-	"golang.org/x/mobile/exp/sprite"
-	"golang.org/x/mobile/exp/sprite/clock"
-	"golang.org/x/mobile/geom"
+	"github.com/vina-bearvpn/mobile/event/size"
+	"github.com/vina-bearvpn/mobile/exp/f32"
+	"github.com/vina-bearvpn/mobile/exp/gl/glutil"
+	"github.com/vina-bearvpn/mobile/exp/sprite"
+	"github.com/vina-bearvpn/mobile/exp/sprite/clock"
+	"github.com/vina-bearvpn/mobile/geom"
 )
 
 type node struct {

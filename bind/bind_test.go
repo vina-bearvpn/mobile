@@ -25,9 +25,9 @@ import (
 	"strings"
 	"testing"
 
-	"golang.org/x/mobile/internal/importers"
-	"golang.org/x/mobile/internal/importers/java"
-	"golang.org/x/mobile/internal/importers/objc"
+	"github.com/vina-bearvpn/mobile/internal/importers"
+	"github.com/vina-bearvpn/mobile/internal/importers/java"
+	"github.com/vina-bearvpn/mobile/internal/importers/objc"
 )
 
 func init() {

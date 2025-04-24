@@ -12,10 +12,10 @@ import (
 	"runtime"
 	"sync"
 
-	"golang.org/x/mobile/event/size"
-	"golang.org/x/mobile/exp/f32"
-	"golang.org/x/mobile/geom"
-	"golang.org/x/mobile/gl"
+	"github.com/vina-bearvpn/mobile/event/size"
+	"github.com/vina-bearvpn/mobile/exp/f32"
+	"github.com/vina-bearvpn/mobile/geom"
+	"github.com/vina-bearvpn/mobile/gl"
 )
 
 // Images maintains the shared state used by a set of *Image objects.

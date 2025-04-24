@@ -1,4 +1,4 @@
-module golang.org/x/mobile
+module github.com/vina-bearvpn/mobile
 
 go 1.23.0
 
@@ -7,7 +7,7 @@ go 1.23.0
 // (Initial opt-in support for it was added in Go 1.22,
 // and it became the default behavior in Go 1.23.)
 //
-// TODO(go.dev/issue/70698): Update the golang.org/x/mobile/bind
+// TODO(go.dev/issue/70698): Update the github.com/vina-bearvpn/mobile/bind
 // code generator for the new behavior and delete this temporary¹
 // forced pre-1.23 go/types behavior.
 //

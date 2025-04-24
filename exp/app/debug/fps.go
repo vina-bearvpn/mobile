@@ -13,9 +13,9 @@ import (
 	"image/draw"
 	"time"
 
-	"golang.org/x/mobile/event/size"
-	"golang.org/x/mobile/exp/gl/glutil"
-	"golang.org/x/mobile/geom"
+	"github.com/vina-bearvpn/mobile/event/size"
+	"github.com/vina-bearvpn/mobile/exp/gl/glutil"
+	"github.com/vina-bearvpn/mobile/geom"
 )
 
 // FPS draws a count of the frames rendered per second.

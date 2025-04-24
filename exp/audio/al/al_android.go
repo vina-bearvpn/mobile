@@ -190,7 +190,7 @@ import (
 	"log"
 	"unsafe"
 
-	"golang.org/x/mobile/internal/mobileinit"
+	"github.com/vina-bearvpn/mobile/internal/mobileinit"
 )
 
 var (

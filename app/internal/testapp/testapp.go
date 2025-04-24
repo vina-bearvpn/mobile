@@ -11,13 +11,13 @@ import (
 	"log"
 	"net"
 
-	"golang.org/x/mobile/app"
-	"golang.org/x/mobile/app/internal/apptest"
-	"golang.org/x/mobile/event/lifecycle"
-	"golang.org/x/mobile/event/paint"
-	"golang.org/x/mobile/event/size"
-	"golang.org/x/mobile/event/touch"
-	"golang.org/x/mobile/gl"
+	"github.com/vina-bearvpn/mobile/app"
+	"github.com/vina-bearvpn/mobile/app/internal/apptest"
+	"github.com/vina-bearvpn/mobile/event/lifecycle"
+	"github.com/vina-bearvpn/mobile/event/paint"
+	"github.com/vina-bearvpn/mobile/event/size"
+	"github.com/vina-bearvpn/mobile/event/touch"
+	"github.com/vina-bearvpn/mobile/gl"
 )
 
 func main() {

@@ -12,17 +12,17 @@ import (
 	"math/rand"
 	"time"
 
-	"golang.org/x/mobile/app"
-	"golang.org/x/mobile/event/key"
-	"golang.org/x/mobile/event/lifecycle"
-	"golang.org/x/mobile/event/paint"
-	"golang.org/x/mobile/event/size"
-	"golang.org/x/mobile/event/touch"
-	"golang.org/x/mobile/exp/gl/glutil"
-	"golang.org/x/mobile/exp/sprite"
-	"golang.org/x/mobile/exp/sprite/clock"
-	"golang.org/x/mobile/exp/sprite/glsprite"
-	"golang.org/x/mobile/gl"
+	"github.com/vina-bearvpn/mobile/app"
+	"github.com/vina-bearvpn/mobile/event/key"
+	"github.com/vina-bearvpn/mobile/event/lifecycle"
+	"github.com/vina-bearvpn/mobile/event/paint"
+	"github.com/vina-bearvpn/mobile/event/size"
+	"github.com/vina-bearvpn/mobile/event/touch"
+	"github.com/vina-bearvpn/mobile/exp/gl/glutil"
+	"github.com/vina-bearvpn/mobile/exp/sprite"
+	"github.com/vina-bearvpn/mobile/exp/sprite/clock"
+	"github.com/vina-bearvpn/mobile/exp/sprite/glsprite"
+	"github.com/vina-bearvpn/mobile/gl"
 )
 
 func main() {

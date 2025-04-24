@@ -12,7 +12,7 @@ import "C"
 import (
 	"unsafe"
 
-	"golang.org/x/mobile/internal/mobileinit"
+	"github.com/vina-bearvpn/mobile/internal/mobileinit"
 )
 
 //export setContext

@@ -5,7 +5,7 @@
 package main
 
 import (
-	_ "golang.org/x/mobile/bind"
-	_ "golang.org/x/mobile/bind/java"
-	_ "golang.org/x/mobile/bind/objc"
+	_ "github.com/vina-bearvpn/mobile/bind"
+	_ "github.com/vina-bearvpn/mobile/bind/java"
+	_ "github.com/vina-bearvpn/mobile/bind/objc"
 )

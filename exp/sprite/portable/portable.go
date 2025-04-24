@@ -13,12 +13,12 @@ import (
 	"image"
 	"image/draw"
 
+	"github.com/vina-bearvpn/mobile/event/size"
+	"github.com/vina-bearvpn/mobile/exp/f32"
+	"github.com/vina-bearvpn/mobile/exp/sprite"
+	"github.com/vina-bearvpn/mobile/exp/sprite/clock"
 	xdraw "golang.org/x/image/draw"
 	"golang.org/x/image/math/f64"
-	"golang.org/x/mobile/event/size"
-	"golang.org/x/mobile/exp/f32"
-	"golang.org/x/mobile/exp/sprite"
-	"golang.org/x/mobile/exp/sprite/clock"
 )
 
 // Engine builds a sprite Engine that renders onto dst.

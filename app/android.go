@@ -51,14 +51,14 @@ import (
 	"time"
 	"unsafe"
 
-	"golang.org/x/mobile/app/internal/callfn"
-	"golang.org/x/mobile/event/key"
-	"golang.org/x/mobile/event/lifecycle"
-	"golang.org/x/mobile/event/paint"
-	"golang.org/x/mobile/event/size"
-	"golang.org/x/mobile/event/touch"
-	"golang.org/x/mobile/geom"
-	"golang.org/x/mobile/internal/mobileinit"
+	"github.com/vina-bearvpn/mobile/app/internal/callfn"
+	"github.com/vina-bearvpn/mobile/event/key"
+	"github.com/vina-bearvpn/mobile/event/lifecycle"
+	"github.com/vina-bearvpn/mobile/event/paint"
+	"github.com/vina-bearvpn/mobile/event/size"
+	"github.com/vina-bearvpn/mobile/event/touch"
+	"github.com/vina-bearvpn/mobile/geom"
+	"github.com/vina-bearvpn/mobile/internal/mobileinit"
 )
 
 // RunOnJVM runs fn on a new goroutine locked to an OS thread with a JNIEnv.

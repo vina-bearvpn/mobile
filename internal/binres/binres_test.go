@@ -18,7 +18,7 @@ import (
 	"strings"
 	"testing"
 
-	"golang.org/x/mobile/internal/sdkpath"
+	"github.com/vina-bearvpn/mobile/internal/sdkpath"
 )
 
 func init() {

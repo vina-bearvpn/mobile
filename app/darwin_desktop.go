@@ -28,12 +28,12 @@ import (
 	"runtime"
 	"sync"
 
-	"golang.org/x/mobile/event/key"
-	"golang.org/x/mobile/event/lifecycle"
-	"golang.org/x/mobile/event/paint"
-	"golang.org/x/mobile/event/size"
-	"golang.org/x/mobile/event/touch"
-	"golang.org/x/mobile/geom"
+	"github.com/vina-bearvpn/mobile/event/key"
+	"github.com/vina-bearvpn/mobile/event/lifecycle"
+	"github.com/vina-bearvpn/mobile/event/paint"
+	"github.com/vina-bearvpn/mobile/event/size"
+	"github.com/vina-bearvpn/mobile/event/touch"
+	"github.com/vina-bearvpn/mobile/geom"
 )
 
 var initThreadID uint64
